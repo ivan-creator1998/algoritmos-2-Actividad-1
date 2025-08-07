@@ -21,13 +21,14 @@ function ordenarCodigo(array) {
     return array;
 }
 // Arreglo de libros desordenados con sus códigos, títulos y años
-let librosDesordenados = [
-  { codigo: "L008", titulo: "Ingeniería de Software", año: 2021 },
-  { codigo: "L003", titulo: "Introducción a la IA", año: 2023 },
-  { codigo: "L001", titulo: "Algoritmos I", año: 2019 },
-  { codigo: "L010", titulo: "Análisis Numérico", año: 2020 },
-  { codigo: "L005", titulo: "Redes de Computadores", año: 2022 },
-  { codigo: "L004", titulo: "Bases de Datos", año: 2018 }
+let librosCasiOrdenados = [ 
+{ codigo: "L001", titulo: "Algoritmos I", anio: 2019 }, 
+{ codigo: "L002", titulo: "Estructuras de Datos", anio: 2020 }, 
+{ codigo: "L003", titulo: "Introducción a la IA", anio: 2023 }, 
+{ codigo: "L005", titulo: "Redes de Computadores", anio: 2022 }, 
+{ codigo: "L004", titulo: "Bases de Datos", anio: 2018 }, // 
+//fuera de lugar 
+{ codigo: "L006", titulo: "Sistemas Operativos", anio: 2017 } 
 ];
 
 // Ordenamos los libros por código
